@@ -1,4 +1,4 @@
-// solution
+// Udemys solution
 function insertionSort(arr){
     for(var i=0; i < arr.length; i++ ){
         var currentVal = arr[i]
@@ -7,12 +7,12 @@ function insertionSort(arr){
             console.log(arr);
         }
         arr[j+1] = currentVal;
+        //scope is still available 
+        
         console.log(arr);
     }
     return arr;
-}
-
-
+} 
 nums = [5,20,2,1,4]
 insertionSort(nums)
 
